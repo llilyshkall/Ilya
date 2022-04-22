@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 
 struct node
@@ -20,7 +20,7 @@ int TTT_find(two_three_tree T)
 
 void TTT_push(two_three_tree T, int x)
 {
-  
+	printf("test\n");
 }
 
 void TTT_pop(two_three_tree T, int x)
