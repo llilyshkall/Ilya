@@ -9,4 +9,7 @@ void TTT_push(two_three_tree T, int x);
 // добавление с балансировкой
 void TTT_pop(two_three_tree T, int x);
 // удаление с балансировкой
+void TTT_clear(two_tree_tree T);
+// отчистка памяти
+
 #endif
