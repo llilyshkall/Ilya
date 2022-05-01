@@ -27,3 +27,24 @@ void TTT_pop(two_three_tree T, int x)
 {
   
 }
+
+
+void TTT_clear(two_three_tree T)
+{
+    if(first != NULL)
+    {
+        TTT_clear(T->first);
+        free(T->first);
+    }
+    if(second != NULL)
+    {
+        TTT_clear(T->second);
+        free(T->second);
+    }
+    if(third != NULL)
+    {
+        TTT_clear(T->third);
+        free(T->third);
+    }
+    free(T);
+}
