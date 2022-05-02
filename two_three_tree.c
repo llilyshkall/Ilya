@@ -13,17 +13,17 @@ struct node
 }
 
 
-int TTT_find(two_three_tree T)
+int TTT_find(two_three_tree T, int x)
 {
 
 }
 
-void TTT_push(two_three_tree T, int x)
+int TTT_push(two_three_tree T, int x)
 {
   
 }
 
-void TTT_pop(two_three_tree T, int x)
+int TTT_pop(two_three_tree T, int x)
 {
   
 }
